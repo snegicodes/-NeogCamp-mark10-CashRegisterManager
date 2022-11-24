@@ -13,20 +13,21 @@
 }
 
 body{
+    margin: auto;
     font-family: 'Nunito', sans-serif;
     text-align: center;
     font-size: larger;
 }
 .container{
-    margin: 4rem 1rem;
+    margin: 4rem 0.1rem;
     text-align: center;
 }
 
-.container .heading{
+.heading{
     margin-bottom: 1rem;
     color: var(--primary);
 }
-.container .desc{
+.desc{
     margin-bottom: 2rem;
 }
 label{
@@ -68,11 +69,12 @@ input:focus{
 }
 
 .change-table{
-    margin: auto;
-    width: 50%;
+    font-size: 1rem;
+    margin: 0 auto;
+    width: 60%;
 }
 
-.change-table caption{
+.heading-table {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-size: larger;
@@ -81,9 +83,10 @@ input:focus{
 
 th, td{
     border: 1px solid var(--primary);
-    border-radius: 0.5rem;
-    -webkit-border-radius: 0.5rem;
-    -moz-border-radius: 0.5rem;
-    -ms-border-radius: 0.5rem;
-    -o-border-radius: 0.5rem;
+    border-radius: 0.4rem;
+    padding: 0.2rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
 }
