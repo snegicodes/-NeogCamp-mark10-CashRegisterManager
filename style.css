@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+:root {
+    --primary: #b700ff;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: larger;
+}
+.container{
+    margin: 4rem 1rem;
+    text-align: center;
+}
+
+.container .heading{
+    margin-bottom: 1rem;
+    color: var(--primary);
+}
+.container .desc{
+    margin-bottom: 2rem;
+}
+label{
+    font-weight: 600;
+}
+
+input{
+    margin: 0.5rem auto 1rem auto;
+    padding: 0.5rem;
+    max-width: 10rem;
+    text-align: center;
+    border-color: var(--primary) ;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+}
+input:focus{
+    outline: none;
+}
+
+#check-button{
+    margin: 0.5rem auto 1rem;
+    padding: 0.4rem 1rem;
+    cursor:pointer;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    background-color: var(--primary);
+    color: white;
+    border: 1px solid white;
+}
+
+#error-message{
+    color: red;
+}
+
+.change-table{
+    margin: auto;
+    width: 50%;
+}
+
+.change-table caption{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: larger;
+    font-weight: 600;
+}
+
+th, td{
+    border: 1px solid var(--primary);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
